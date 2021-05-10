@@ -6,8 +6,8 @@ from sendgrid.helpers.mail import (
 from sendgrid import SendGridAPIClient
 
 message = Mail(
-    from_email='rajkuls2014@gmail.com', #email that sends the message
-    to_emails='email.alert.python@gmail.com', #email that receives the message
+    from_email='send@gmail.com', #email that sends the message
+    to_emails='receive@gmail.com', #email that receives the message
     subject='Important message from the back office',
     html_content='<strong>look at this file</strong>'
 )
