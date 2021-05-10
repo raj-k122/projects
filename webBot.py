@@ -2,7 +2,7 @@ from selenium import webdriver
 
 def automated(query):
     #define the location with your chrome driver is installed
-    driver = webdriver.Chrome(executable_path=r'C:\Users\rajku\Desktop\chromedriver.exe')
+    driver = webdriver.Chrome(executable_path=r'enter the path of your Chrome driver')
     driver.get('https://www.python.org/')
     driver.find_element_by_id('id-search-field').send_keys(query)
 
